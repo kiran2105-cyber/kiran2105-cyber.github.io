@@ -3,44 +3,55 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kiran | Cyber Security Portfolio</title>
+<title>Kiran - Cyber Security</title>
 <style>
-body{margin:0;font-family:Arial,sans-serif;background:#0a0a0a;color:#fff;text-align:center}
-header{padding:80px 20px;background:linear-gradient(135deg,#00ff88,#0066ff)}
-header h1{font-size:48px;margin:0;letter-spacing:2px}
-header p{font-size:19px;opacity:0.9;margin-top:10px}
-section{padding:50px 20px;max-width:800px;margin:auto}
-.card{background:#151515;padding:30px;border-radius:16px;margin:25px 0;border:1px solid #222;text-align:left}
-.card h2{margin-top:0;color:#00ff88}
-a.btn{display:inline-block;padding:13px 28px;background:#00ff88;color:#000;text-decoration:none;border-radius:30px;font-weight:bold;margin:10px}
-footer{padding:30px;color:#666}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif;}
+body{background:#0a1931;color:white;}
+nav{display:flex;justify-content:space-between;padding:20px 8%;align-items:center;}
+nav .logo{font-weight:bold;display:flex;align-items:center;gap:8px;}
+nav .logo span{width:8px;height:8px;background:#5eead4;border-radius:50%;display:inline-block;}
+nav ul{display:flex;list-style:none;gap:25px;}
+nav ul li{color:#94a3b8;font-size:14px;}
+.hero{display:flex;justify-content:space-between;align-items:center;padding:60px 8%;}
+.hero-left{width:60%;}
+.small-title{color:#5eead4;font-size:12px;letter-spacing:2px;margin-bottom:15px;}
+.hero h1{font-size:48px;line-height:1.1;margin-bottom:15px;}
+.hero .role{color:#5eead4;font-weight:600;margin-bottom:15px;}
+.hero .desc{color:#94a3b8;line-height:1.6;max-width:500px;margin-bottom:25px;}
+.btns{display:flex;gap:12px;}
+.btn{padding:12px 22px;border-radius:25px;border:1px solid #334155;font-size:14px;text-decoration:none;}
+.btn-green{background:#5eead4;color:#0a1931;border:none;}
+.btn-dark{background:transparent;color:white;}
+.hero-right{width:35%;}
+.hero-right img{width:100%;max-width:300px;border-radius:20px;border:2px solid #1e3a5f;}
+@media(max-width:768px){.hero{flex-direction:column;}.hero-left,.hero-right{width:100%;}.hero h1{font-size:32px;}}
 </style>
 </head>
 <body>
-<header>
-<h1>KIRAN</h1>
-<p>Cyber Security Enthusiast | Ethical Hacker | Chennai</p>
-<a class="btn" href="#contact">Hire Me</a>
-</header>
-
-<section>
-<div class="card">
-<h2>About Me</h2>
-<p>Hi, I'm Kiran from Chennai. Passionate about Cyber Security, Ethical Hacking and Web Development. I love building secure and professional websites and exploring how technology can be protected.</p>
+<nav>
+<div class="logo"><span></span> Kiran</div>
+<ul>
+<li>Home</li>
+<li>About</li>
+<li>Skills</li>
+<li>Contact</li>
+</ul>
+</nav>
+<div class="hero">
+<div class="hero-left">
+<p class="small-title">— CYBER SECURITY • ETHICAL HACKING • CUDDALORE</p>
+<h1>Kiran<br>From Cuddalore</h1>
+<p class="role">Cyber Security Student - Cuddalore District</p>
+<p class="desc">I am learning cyber security, ethical hacking and web development. My dream is to become a cyber security expert. Currently learning from basics.</p>
+<div class="btns">
+<a class="btn btn-green" href="#">My Learning →</a>
+<a class="btn btn-dark" href="#">Contact Me</a>
 </div>
-
-<div class="card">
-<h2>What I Do</h2>
-<p>🔐 Cyber Security Research<br>💻 Web Development<br>🛡️ Vulnerability Assessment<br>⚙️ GitHub & Open Source</p>
 </div>
-
-<div class="card" id="contact">
-<h2>Contact Me</h2>
-<p>📍 Chennai, India<br>💼 GitHub: kiran2105-cyber<br>📧 Email: your email here</p>
-<a class="btn" href="https://github.com/kiran2105-cyber">Visit My GitHub</a>
+<div class="hero-right">
+<img src="https://via.placeholder.com/300x350/0a1931/5eead4?text=KIRAN" alt="Kiran">
 </div>
-</section>
-
-<footer>© 2026 Kiran. Built with ❤️ on GitHub Pages</footer>
+</div>
 </body>
 </html>
+
